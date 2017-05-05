@@ -10,4 +10,19 @@ laravel 发送邮件实例说明：
 //  如果你是配置的.env文件，env里面默认是没有是没有配置 address的值。
 'password' => '****',
 
-//还有就是需要注意 如果邮箱密码不行，需要登录163获取一个客户端密码
+//重点：还有就是需要注意 如果邮箱密码不行，需要登录163邮箱，在设置中获取一个客户端密码
+
+
+// 关于报错：
+ Expected response code 250 but got code "553", with message "553 Mail from must equal authorized user：
+ 实际报了这个错误，但是邮件其实已经发送成功！
+
+
+// 这里还有一个email错误的参考错误链接： http://www.mailenable.com/kb/content/article.asp?ID=ME020032
+
+
+
+
+
+
+

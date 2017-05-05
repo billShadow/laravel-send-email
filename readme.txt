@@ -18,7 +18,14 @@ laravel 发送邮件实例说明：
  实际报了这个错误，但是邮件其实已经发送成功！
 
 
+ Laravel-邮件问题：Failed to authenticate on SMTP server with username "xxxx@qq.com" using 1 possible authenticators
+ 其实这个并不是 Laravel mail库的问题，而是目前 似乎所有的 邮箱要求在使用第三方登录时，必须开启了 授权模式：如：auth.png图片
+
+
 // 这里还有一个email错误的参考错误链接： http://www.mailenable.com/kb/content/article.asp?ID=ME020032
+
+
+
 
 
 
